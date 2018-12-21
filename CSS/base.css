@@ -1,0 +1,82 @@
+body {
+	background-color:		rgb(150, 150, 150);
+	z-index: 				-2;
+	overflow:				hidden;
+	outline: 				none;
+	color:					rgb(255, 255, 255);
+	height:					100%;
+	width:					100%;
+}
+
+#paragraph_1 {
+	font-size:				14pt;
+}
+
+div.page {
+	position:				absolute;
+	top:					0pt;
+	left:					6666pt;
+	width:					90%;
+	height:					100%;
+	padding-left:			5pt;
+	padding-top:			5pt;
+	max-height:				100%;
+	
+	background-color:		rgb(150, 150, 150);
+	overflow-y:				auto;
+	overflow-x:				hidden;
+	
+	transition-duration: 	0.5s;
+	z-index:				0;
+}
+
+div.pageFocus {
+	position:				absolute;
+	top:					0pt;
+	left:					100pt;
+	width:					90%;
+	height:					100%;
+	padding-left:			5pt;
+	padding-top:			5pt;
+	max-height:				100%;
+	
+	background-color:		rgb(150, 150, 150);
+	overflow-y:				auto;
+	overflow-x:				hidden;
+	
+	transition-duration: 	0.5s;
+	z-index:				0;
+}
+
+div.menu {
+	position:				absolute;
+	top:					0pt;
+	left:					0pt;
+	width:					100pt;
+	height:					100%;
+	padding-top:			50pt;
+	
+	background-color:		rgb(32, 32, 32);
+	z-index:				666;
+}
+
+#translations {
+	position:				absolute;
+	bottom:					10%;
+	left:					0pt;
+	width:					100pt;
+	height:					30pt;
+	
+	background-color:		transparent;	
+}
+
+button.menu_item {
+	width:					100pt;
+	height:					30pt;
+	color:					#ffffff;
+	background-color:		transparent;
+	border:					none;
+}
+button.menu_item:hover {
+	background-color: 		rgb(100, 100, 100);
+}

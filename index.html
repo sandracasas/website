@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./CSS/base.css">
+        <title id="i18n demo"></title>
+		<!-- Loads all locales -->
+		<script src="./Localization/Locales/en.js"></script>
+		<script src="./Localization/Locales/fr.js"></script>
+    </head>
+	<body onLoad="Update();">
+		<!-- Content of the website -->
+		<div id="sidebar" class="menu">
+			<div id="selecter">
+				<button id="menu_home" onClick="swap_content('page_home')" class="menu_item" />
+				<button id="menu_portfolio" onClick="swap_content('page_portfolio')"class="menu_item">PORTFOLIO</button>
+			</div>
+			
+			<div id="translations">
+				<button id="language_en" onclick="SetLocale(locale_en);" />
+				<button id="language_fr" onclick="SetLocale(locale_fr);" />	
+			</div>
+		</div>
+		
+		<div id="page_home" class="pageFocus">
+			<p id="paragraph_1"/>
+			<p id="paragraph_2"/>
+		</div>
+		
+		<div id="page_portfolio" class="page">
+			<p id="paragraph_1">PAGE PORTFOLIO MOTHERFUCKERS</p>
+		</div>
+		
+		
+		
+		
+		
+		
+
+		
+		
+		<!-- Loads the translation system, leave at end of the body element -->
+		<script src="./Localization/translations.js"></script>
+		<script src="./js/menu.js"></script>
+	</body>
+</html>
