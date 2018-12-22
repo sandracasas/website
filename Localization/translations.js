@@ -11,6 +11,7 @@ let button_lang_fr = document.getElementById('language_fr');
 let menu_home = document.getElementById('menu_home');
 let paragraph_1 = document.getElementById('paragraph_1');
 let paragraph_2 = document.getElementById('paragraph_2');
+let menu_portolio = document.getElementById('menu_portolio');
 
 // ------------------------------------------------------------------------
 // Functions
@@ -30,5 +31,6 @@ function Update () {
 	menu_home.innerHTML = localeUsed.menu_home;
 	paragraph_1.innerHTML = localeUsed.paragraph_1;
 	paragraph_2.innerHTML = localeUsed.paragraph_2;
+	menu_portolio.innerHTML = localeUsed.menu_portolio;
 	
 }

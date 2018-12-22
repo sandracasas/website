@@ -3,7 +3,7 @@ body {
 	z-index: 				-2;
 	overflow:				hidden;
 	outline: 				none;
-	color:					rgb(255, 255, 255);
+	color:					#000000;
 	height:					100%;
 	width:					100%;
 }
@@ -16,7 +16,7 @@ div.page {
 	position:				absolute;
 	top:					0pt;
 	left:					6666pt;
-	width:					90%;
+	width:					85%;
 	height:					100%;
 	padding-left:			5pt;
 	padding-top:			5pt;
@@ -34,7 +34,7 @@ div.pageFocus {
 	position:				absolute;
 	top:					0pt;
 	left:					100pt;
-	width:					90%;
+	width:					85%;
 	height:					100%;
 	padding-left:			5pt;
 	padding-top:			5pt;
