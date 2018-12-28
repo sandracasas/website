@@ -9,11 +9,50 @@ body {
 }
 
 #paragraph_1 {
+	font-size:				40pt;
+}
+
+#paragraph_2 {
 	font-size:				14pt;
 }
 
 #paragraph_3 {
-	font-size:				14pt;
+	font-size:				30pt;
+}
+
+#paragraph_4 {
+	font-size:				20pt;
+	text-decoration:		underline;
+}
+
+#paragraph_7 {
+	font-size:				20pt;
+	text-decoration:		underline;
+}
+
+#paragraph_10 {
+	font-size:				20pt;
+	text-decoration:		underline;
+}
+
+#paragraph_13 {
+	font-size:				20pt;
+	text-decoration:		underline;
+}
+
+#paragraph_16 {
+	font-size:				20pt;
+	text-decoration:		underline;
+}
+
+#paragraph_19 {
+	font-size:				20pt;
+	text-decoration:		underline;
+}
+
+#paragraph_22 {
+	font-size:				20pt;
+	text-decoration:		underline;
 }
 
 div.page {
