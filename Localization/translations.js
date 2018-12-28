@@ -33,6 +33,7 @@ let paragraph_21 = document.getElementById('paragraph_21');
 let paragraph_22 = document.getElementById('paragraph_22');
 let paragraph_23 = document.getElementById('paragraph_23');
 let paragraph_24 = document.getElementById('paragraph_24');
+let paragraph_25 = document.getElementById('paragraph_25');
 
 
 // ------------------------------------------------------------------------
@@ -75,6 +76,7 @@ function Update () {
 	paragraph_22.innerHTML = localeUsed.paragraph_22;
 	paragraph_23.innerHTML = localeUsed.paragraph_23;
 	paragraph_24.innerHTML = localeUsed.paragraph_24;
+	paragraph_25.innerHTML = localeUsed.paragraph_25;
 	
 	
 }
